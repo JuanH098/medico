@@ -1,0 +1,553 @@
+{
+  "schema_version": "aisphere.ccrm.secure_manifest.v1.5",
+  "project": "CCRM Long COVID / AISPHERE",
+  "version": "v1.5",
+  "created_at": "2026-07-01T11:10:19+00:00",
+  "encrypted": true,
+  "contains_plaintext": false,
+  "access_group": "Equipo AISPHERE",
+  "vault": {
+    "repo_path": "secure_data/ccrm_artifacts_v1_5.db.enc",
+    "local_path_at_creation": "C:\\Users\\herre\\Proyectos\\CCRM_LongCOVID_v1_5\\secure_data\\ccrm_artifacts_v1_5.db.enc",
+    "filename": "ccrm_artifacts_v1_5.db.enc",
+    "sha256_encrypted": "c89e929e93ff3c3abba72079898f496090b80542bd65e6ae0ff19b15ce581887",
+    "size_bytes": 86270,
+    "encryption": "ChaCha20 + HMAC-SHA256, stdlib implementation",
+    "aad": "AISPHERE_CCRM_ARTIFACT_VAULT_V1_3_STD_LIB",
+    "magic": "AISPHERE_CCRM_VAULT_STD_V13"
+  },
+  "key_manager": {
+    "key_manager_version": "AISPHERE_CCRM_KEY_MANAGER_v1_5_PAIRWISE",
+    "fingerprint_version": "AISPHERE_CCRM_KEY_FINGERPRINT_v1_5",
+    "key_env_name": "AISPHERE_CCRM_MASTER_KEY",
+    "keychain_service": "AISPHERE_CCRM_VAULT",
+    "keychain_account": "AISPHERE_CCRM_MASTER_KEY",
+    "key_location": "local_private_file",
+    "key_fingerprint_public_sha256": "15e5fdd07233730bafc764a87b3444dadbcb9bf865c17c57105ee54efc2dd055",
+    "key_material_disclosure": "never: manifest stores only non-secret fingerprint",
+    "rotation_policy": "new vault generation after deliberate key rotation; never overwrite without audit"
+  },
+  "artifact_count": 63,
+  "artifact_types": {
+    "json": 63
+  },
+  "artifact_index": [
+    {
+      "artifact_id": "art_b8304263cb2214dd797bd389",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-06-30T08:18:50+00:00",
+      "sha256_plaintext": "7d3676e230e5b82e7b9978e74f3f96c25458ff1cc3b2e290629b46f2ebc9bc42"
+    },
+    {
+      "artifact_id": "art_47fa0a36d0651c6f78b13110",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-06-30T08:18:51+00:00",
+      "sha256_plaintext": "65389150aacbe390390311f94bc2b336297138525785d8b2d06af35add9b8996"
+    },
+    {
+      "artifact_id": "art_6832a1b7379519b116c00d42",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 697,
+      "created_at": "2026-06-30T08:18:52+00:00",
+      "sha256_plaintext": "022526b20a5e784570cf47cf6642253fe3d294eeca30113b923b44da84a7888a"
+    },
+    {
+      "artifact_id": "art_18017766cda580c9f6137291",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-06-30T08:25:12+00:00",
+      "sha256_plaintext": "eed30cb6a0763de01f219e6d59c1e4551a3d23313e569b658eb15d4fae0a33cf"
+    },
+    {
+      "artifact_id": "art_ab804a0f76d43092fe5ed9e5",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-06-30T08:25:12+00:00",
+      "sha256_plaintext": "045ace486550ba0b93b7e7534a521a62abf2b40b1bdbbbf8965c29e087a38619"
+    },
+    {
+      "artifact_id": "art_1a9026450dd4a1f5e2f4e145",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 697,
+      "created_at": "2026-06-30T08:25:13+00:00",
+      "sha256_plaintext": "5da2167ae521712579dc8405fd7bfaaad1be87c043b8521392ad2662bcb35c7c"
+    },
+    {
+      "artifact_id": "art_d8d5cae0584f62e456ba6b5c",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-06-30T08:34:55+00:00",
+      "sha256_plaintext": "2df969546b04dec7601b53d94575b8097a9c5f21c5adbd2c612876f18775e061"
+    },
+    {
+      "artifact_id": "art_d16ee0b51831846e85bcb13e",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-06-30T08:34:56+00:00",
+      "sha256_plaintext": "2ed2589842c1b03fe2e1716d95722d029dee7084cd62bfb534af4ef1f5b573a9"
+    },
+    {
+      "artifact_id": "art_93d3592b62ac5c66bbc8e326",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 697,
+      "created_at": "2026-06-30T08:34:57+00:00",
+      "sha256_plaintext": "b269bf080cd3c849094875bfd51875d1a704678bdae7b81ba79b39942c7e913d"
+    },
+    {
+      "artifact_id": "art_43cac67724f4419ec84bdbca",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T08:11:12+00:00",
+      "sha256_plaintext": "94c74ade0f3559f9fab61cf0ddc31ff15eee2c30625ff710d761ad985e3375ae"
+    },
+    {
+      "artifact_id": "art_73d77b85742167b6447eeec8",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T08:11:12+00:00",
+      "sha256_plaintext": "fdf3f010ccc32882a038417fbaceb50ad3c811ec66afc22da15a04234296a5f7"
+    },
+    {
+      "artifact_id": "art_b1783dc5814b0a22dbcd5f2a",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T08:11:13+00:00",
+      "sha256_plaintext": "3dfb2d3be1bed82e24a54926e8e6de6babd2537ab02ff57445f68a53265eb011"
+    },
+    {
+      "artifact_id": "art_7df64a4da94bb44523daeee1",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T08:28:22+00:00",
+      "sha256_plaintext": "3d934f62c4c9ca4fc61aa56a994ec5722c4a5eb89b07c3031c8c99a55b201b5d"
+    },
+    {
+      "artifact_id": "art_d714feb54bdf71c2f9843b49",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T08:28:22+00:00",
+      "sha256_plaintext": "7b747fc406fc9157701c36bbf0684d9133349b9bffd919d3627107c95dd27616"
+    },
+    {
+      "artifact_id": "art_db7a969163dbdf081e0f5a20",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T08:28:23+00:00",
+      "sha256_plaintext": "ced0ad642daf29be44031f6ef7a569e11fa1b91518feb9870cd899821b00127f"
+    },
+    {
+      "artifact_id": "art_0c2dec28eefe3e01875822f5",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T08:37:21+00:00",
+      "sha256_plaintext": "e6561e3f48337b4f71aff2992b7063d986fa44157f9a56776f91e8a8d56b3345"
+    },
+    {
+      "artifact_id": "art_ec436dfd71d9e86667aadd20",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T08:37:21+00:00",
+      "sha256_plaintext": "1a27ffe6788a9832670bf7104116eb26ab073cd8090fc586da6b25dc5193a5e5"
+    },
+    {
+      "artifact_id": "art_ef323618235744154ede3769",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T08:37:22+00:00",
+      "sha256_plaintext": "7dbead6612f5e0c8ffcd8d5f60eac0a6517496ed4a720216515d83b46d373263"
+    },
+    {
+      "artifact_id": "art_eb4d4d19c2d1d594897c4774",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T08:44:35+00:00",
+      "sha256_plaintext": "27a2d501953a3a92608a563572c29960357a73e27256bd57f712e90bb238139f"
+    },
+    {
+      "artifact_id": "art_4fe0302c3ff2c0ec93d8b47c",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T08:44:36+00:00",
+      "sha256_plaintext": "55aa71841b2fdf4dd3e730531846896a4dfa304a299a67dd881480aadd380cab"
+    },
+    {
+      "artifact_id": "art_96bff59cd34d2b5afbde72a1",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T08:44:37+00:00",
+      "sha256_plaintext": "93edf3d774c8c2ca9cc3602126ae20a91ec6f96cbfdd04dcf4de69c3e3ddb25d"
+    },
+    {
+      "artifact_id": "art_2544ee3c02d4df199485ab2c",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T08:58:42+00:00",
+      "sha256_plaintext": "da8cdc9a647aca6a79fd377ebf2241b993f0a527397045cbd0b2bc9c54eeeaed"
+    },
+    {
+      "artifact_id": "art_3d0727a8a7dd092dd369ce4a",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T08:58:42+00:00",
+      "sha256_plaintext": "4696e86209dc67c3796e32744830f0ea22ec1ff0caef3b9a6ff59074e5356431"
+    },
+    {
+      "artifact_id": "art_3c52f10bbd0a13a3ab03a284",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T08:58:44+00:00",
+      "sha256_plaintext": "e76120943e139154901de6d9a38c8304761ccaab3e79222487b73905f2d967f7"
+    },
+    {
+      "artifact_id": "art_16864d4e79de236f4ade3ff6",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:21:09+00:00",
+      "sha256_plaintext": "f77fdb6c19e97a8dc06861a50a640e9aa02f936be4542308aa54c53f6c3cf342"
+    },
+    {
+      "artifact_id": "art_53efe1751e31a745f889f29b",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:21:09+00:00",
+      "sha256_plaintext": "cdbbc29d401543c85caab690374bdb972e4036694921ad02c60391848324c67d"
+    },
+    {
+      "artifact_id": "art_0eac768cf05489b708a737ca",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:21:11+00:00",
+      "sha256_plaintext": "f4a02e82db7e2b9c62a91ce2cdc1ff0c55d46c7adbe89bcc874bc5c7c8ab04f5"
+    },
+    {
+      "artifact_id": "art_54c1fdffb63e7fd8f4c76dd1",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:23:13+00:00",
+      "sha256_plaintext": "c6fb0e1ebd04c16aab7bd92ed8d7408d65649d5b52d5bca1b2bb391fb32ceb3d"
+    },
+    {
+      "artifact_id": "art_5c4c0575a47197b18fe94b35",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:23:13+00:00",
+      "sha256_plaintext": "3223a49373627d5fe840b9935d5ae91f9d7978b32bd46206e9aa5cbebf22feb4"
+    },
+    {
+      "artifact_id": "art_f496e1635f5bf5732d227a68",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:23:14+00:00",
+      "sha256_plaintext": "729bc6e0ecdd68c85e0fa4ef0e02284538d6d72ef6672f31d7d1cf72be263be0"
+    },
+    {
+      "artifact_id": "art_afeb45d45d90a7118139dc85",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:28:19+00:00",
+      "sha256_plaintext": "921f4db6d15b62e00bad5b2a703bfdd06ab51bfe109251bfc3fa522de54c1514"
+    },
+    {
+      "artifact_id": "art_d4e7c554dbd69434db34fac1",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:28:20+00:00",
+      "sha256_plaintext": "3da2537d951ca0a94886e32b6d7ceb9c898156cee3857b60cba49866b3892741"
+    },
+    {
+      "artifact_id": "art_0b1427ff145802f5c15f6107",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:28:21+00:00",
+      "sha256_plaintext": "28e5009075c1d1c903064ed2d6b3503320994d8b462d736728c7d05a7b49b177"
+    },
+    {
+      "artifact_id": "art_73b14f0ed34d8bab9f354698",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:29:53+00:00",
+      "sha256_plaintext": "6d26ec3bd1d3d42fa528753271118685740819368e5e64e0a40bf96dafc4acc1"
+    },
+    {
+      "artifact_id": "art_09dbb694c14829d33968f17f",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:29:54+00:00",
+      "sha256_plaintext": "1549e7e225ab02fa9fbdc57b9ceea99250009b30fe37fa5f7bf7a5c58768b13e"
+    },
+    {
+      "artifact_id": "art_4df449c88d65778b6ac9f955",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:29:55+00:00",
+      "sha256_plaintext": "53732b478c7fef42f88207f5a92d199c961cef32298c27f5ee874076a0a5471c"
+    },
+    {
+      "artifact_id": "art_ebd2773408bc2e183d648127",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:31:43+00:00",
+      "sha256_plaintext": "6866c78dbf8abbce3773513c6b6a681d1a786d6f96937bdc44fe34ce90278499"
+    },
+    {
+      "artifact_id": "art_0bab476ff9c4e4bf815e0047",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:31:44+00:00",
+      "sha256_plaintext": "9c317b84aabc3b614b55c6bd2022502dea73baa0d1d375645e4bcb1ac6005dcc"
+    },
+    {
+      "artifact_id": "art_170ea6f0cca7694f42be1b95",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:31:46+00:00",
+      "sha256_plaintext": "3da0d464e87280d93e717294b35b555a060a6d92c52a405d38e1be6e4ea7edf9"
+    },
+    {
+      "artifact_id": "art_5cd4efcaa5f0bb72be992908",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:35:56+00:00",
+      "sha256_plaintext": "5850e13eb33446a2752f4d6b4451f87646030f89ead7f0205f4e20d82c8c6ba7"
+    },
+    {
+      "artifact_id": "art_da72c47693c1c528f7db9b0a",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:35:57+00:00",
+      "sha256_plaintext": "bc8e2dbc71cda5da5c714ead6c5f1f6903b94eb34131b20caaa3488a29fb46be"
+    },
+    {
+      "artifact_id": "art_915353d2fea6704e83af8270",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:35:58+00:00",
+      "sha256_plaintext": "5b884389c7ed6b7c8d708723a4534de47ce3bae1d9fe7e39ef64c00988cb6565"
+    },
+    {
+      "artifact_id": "art_b2ec70b28fba9b02ed81b868",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:45:29+00:00",
+      "sha256_plaintext": "e7a65003293d6a2c801117517637833e475028f0c1de611af0a55842529c2657"
+    },
+    {
+      "artifact_id": "art_00f2cf3e4b5bc9494a4c46e2",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:45:30+00:00",
+      "sha256_plaintext": "84f36992659d54dee51962f6e868885d60a7733a8ff5f64179bb9f1a785247b2"
+    },
+    {
+      "artifact_id": "art_87f6401f1dde6b75f4c828b1",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:45:32+00:00",
+      "sha256_plaintext": "c288105856a65ed696df33a61ea2d017c9aa661b9ccc78bc105e663faf57269b"
+    },
+    {
+      "artifact_id": "art_8eedc0be46a0bb5a8af339d8",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:47:26+00:00",
+      "sha256_plaintext": "43a6ffc6c95de855d970ad78c8a3ff8bb5e49aef7fdb5329f66acd968a51a364"
+    },
+    {
+      "artifact_id": "art_45de883858ab5cb24153d8ce",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:47:28+00:00",
+      "sha256_plaintext": "392835178d53defe63dfecc7945a1cef2c13017fa65ca5279b8f8651a7121de1"
+    },
+    {
+      "artifact_id": "art_3b9b72f51e68448381808b1e",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:47:29+00:00",
+      "sha256_plaintext": "39ae51e6b69f65882e94cd5e50e2bd9df6f51e547c4cc505a46d4a80b7f3a818"
+    },
+    {
+      "artifact_id": "art_ad1ddde70e823f3bf67217fb",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T10:57:16+00:00",
+      "sha256_plaintext": "d87b69f2874184788a8388e283b4e130df4236bde9c94b3b461848f4d7bb6fc1"
+    },
+    {
+      "artifact_id": "art_aacfc632192bc2a28011a20f",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T10:57:20+00:00",
+      "sha256_plaintext": "2ca4ef73eeb1e24f5a7dfbbd3490a260e895310a25aef0c1fcde60684061f235"
+    },
+    {
+      "artifact_id": "art_3056d69505ce17411456f4fc",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T10:57:23+00:00",
+      "sha256_plaintext": "f9b49294462b80130eb6a23698283b073df00a3e8836bbae42f0e4606f4199a4"
+    },
+    {
+      "artifact_id": "art_9be87567a60e68fc3419469d",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T11:01:22+00:00",
+      "sha256_plaintext": "787e8a37b914a1cf3327d6d41ad28e041981e8cc0aded546b2b965ad84178e38"
+    },
+    {
+      "artifact_id": "art_35372ed3d708c66c88af2dac",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T11:01:23+00:00",
+      "sha256_plaintext": "7189d8f1b45a13a06db668b98c969923a12625bae8d7c4be9a5b582f7c6ab0fc"
+    },
+    {
+      "artifact_id": "art_4e64e1ee414affbda67eabb8",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T11:01:25+00:00",
+      "sha256_plaintext": "aad669d541afb5909a8d77345ba95d11014a7528e2afe0234b797f9ba49cd27c"
+    },
+    {
+      "artifact_id": "art_c1115dd214c813ea5f29b429",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T11:04:09+00:00",
+      "sha256_plaintext": "3d258fab808060ba6e3ddd163f94423909d75650c127d4b81f2acad4c3a997b1"
+    },
+    {
+      "artifact_id": "art_ab647a9d7aff5380d59755c8",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T11:04:11+00:00",
+      "sha256_plaintext": "dffa5adb56d0d9f2da3f12f15b6cd459e26f1b0ba300ca2c1d67b654c4168a03"
+    },
+    {
+      "artifact_id": "art_038aef6a27fc43cdffb43291",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T11:04:12+00:00",
+      "sha256_plaintext": "9c05e4d75eb9aba6257fa4045fe8ab2670cb365f915936af81e541127fe43e42"
+    },
+    {
+      "artifact_id": "art_6566f3e8b38fd53826680217",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T11:06:21+00:00",
+      "sha256_plaintext": "18f3351427a83cfa14eb69f33985a15ad4467f4291589ef771ea56de299af26c"
+    },
+    {
+      "artifact_id": "art_a712fb7fbc10ab139f7b7cba",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T11:06:22+00:00",
+      "sha256_plaintext": "b7379eb4dbd7bb78f18b37628089887727fc6a556b7635e337fc49ad855163c5"
+    },
+    {
+      "artifact_id": "art_02ebeb3907bf70b3c4a95970",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T11:06:24+00:00",
+      "sha256_plaintext": "500c7ce2a25599c5819f6f968e5c7b5944278345426500f8c9f9834950bbf546"
+    },
+    {
+      "artifact_id": "art_4263c57bc8c388bd8f757b9e",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T11:10:15+00:00",
+      "sha256_plaintext": "78b3e72bea87b565da395c71db62809d87e81f00e61679df748461e5c8186f94"
+    },
+    {
+      "artifact_id": "art_c8ecf02049c05990f477c900",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T11:10:17+00:00",
+      "sha256_plaintext": "25fdf840832679b866885b37f5052f223971d45802ca89801c4163f03da750c6"
+    },
+    {
+      "artifact_id": "art_872aa22c5182765eaa4a3a4a",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T11:10:18+00:00",
+      "sha256_plaintext": "019193095d95f047269c26c42d546e2d225dcb9d60e39fee120fff67d0241b8d"
+    }
+  ],
+  "reproducibility": {
+    "required_steps": [
+      "download vault and manifest from GitHub",
+      "verify encrypted vault SHA-256 against manifest",
+      "verify active local key fingerprint against manifest key_manager",
+      "decrypt vault locally",
+      "open restored SQLite database",
+      "verify internal artifact SHA-256 values",
+      "write local restore audit report"
+    ],
+    "restore_audit_schema_version": "aisphere.ccrm.restore_audit.v1.5"
+  },
+  "security_note": "Manifest público: no incluye clave, payloads, tokens, previews ni artefactos en claro."
+}
