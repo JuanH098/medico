@@ -2,7 +2,7 @@
   "schema_version": "aisphere.ccrm.secure_manifest.v1.5",
   "project": "CCRM Long COVID / AISPHERE",
   "version": "v1.5",
-  "created_at": "2026-07-01T11:10:19+00:00",
+  "created_at": "2026-07-01T11:39:33+00:00",
   "encrypted": true,
   "contains_plaintext": false,
   "access_group": "Equipo AISPHERE",
@@ -10,8 +10,8 @@
     "repo_path": "secure_data/ccrm_artifacts_v1_5.db.enc",
     "local_path_at_creation": "C:\\Users\\herre\\Proyectos\\CCRM_LongCOVID_v1_5\\secure_data\\ccrm_artifacts_v1_5.db.enc",
     "filename": "ccrm_artifacts_v1_5.db.enc",
-    "sha256_encrypted": "c89e929e93ff3c3abba72079898f496090b80542bd65e6ae0ff19b15ce581887",
-    "size_bytes": 86270,
+    "sha256_encrypted": "46b0d329f768f232da6129f3bf878fa1e5e04ceadb1748afc167fb3b84f930bb",
+    "size_bytes": 90366,
     "encryption": "ChaCha20 + HMAC-SHA256, stdlib implementation",
     "aad": "AISPHERE_CCRM_ARTIFACT_VAULT_V1_3_STD_LIB",
     "magic": "AISPHERE_CCRM_VAULT_STD_V13"
@@ -27,9 +27,9 @@
     "key_material_disclosure": "never: manifest stores only non-secret fingerprint",
     "rotation_policy": "new vault generation after deliberate key rotation; never overwrite without audit"
   },
-  "artifact_count": 63,
+  "artifact_count": 66,
   "artifact_types": {
-    "json": 63
+    "json": 66
   },
   "artifact_index": [
     {
@@ -535,6 +535,30 @@
       "size_bytes": 699,
       "created_at": "2026-07-01T11:10:18+00:00",
       "sha256_plaintext": "019193095d95f047269c26c42d546e2d225dcb9d60e39fee120fff67d0241b8d"
+    },
+    {
+      "artifact_id": "art_f9c4163ad15b3782ab4659cb",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 546,
+      "created_at": "2026-07-01T11:39:30+00:00",
+      "sha256_plaintext": "baa06455ee641dca1476cfbdfabb809c6ddd9853fef238198515b20888b6fe9c"
+    },
+    {
+      "artifact_id": "art_4890ff80e22c59d3f27f90db",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_5.json",
+      "size_bytes": 543,
+      "created_at": "2026-07-01T11:39:31+00:00",
+      "sha256_plaintext": "278122f69851ecae243ef55973fb1e4e28a65ab37f383ed888d7698db8913c57"
+    },
+    {
+      "artifact_id": "art_1cc118572a450100d1caac71",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_5.json",
+      "size_bytes": 699,
+      "created_at": "2026-07-01T11:39:33+00:00",
+      "sha256_plaintext": "18f7c5b6da49776d85be2cde9fd1fa3eb8f7981f73ee0c800aad7703c08d6632"
     }
   ],
   "reproducibility": {
